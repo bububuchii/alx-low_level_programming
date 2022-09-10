@@ -16,6 +16,6 @@ int main(void)
 	for (digit = 'a'; digit <= 'f'; digit++)
 		putchar(digit);
 
-	putchar('\n')
+	putchar('\n');
 		return (0);
 }

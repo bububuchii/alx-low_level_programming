@@ -7,11 +7,11 @@
 
 int main(void)
 {
-	int var;
-	for (var = 0; var < 99: var++)
+	int var; 
+	for (var = 0; var < 9; var++)
 	{
-		int ii;
-		for(ii = var + 1; 11 < 100; ii++)
+		int ii; 
+		for (ii = var + 1; 11 < 100; ii++)
 		{
 			putchar((var / 10) + '0');
 			putchar((var % 10) + '0');

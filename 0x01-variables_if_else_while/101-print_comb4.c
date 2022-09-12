@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - output all single number of base 19
  *
  * Return= 0 if successful
  */

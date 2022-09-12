@@ -26,7 +26,7 @@ int main(void)
 				continue;
 		}
 	}
-	ptchar('\n');
+	putchar('\n');
 	return (0);
 }
 				 

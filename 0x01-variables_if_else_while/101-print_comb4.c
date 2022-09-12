@@ -16,7 +16,7 @@ int main(void)
 			int jj;
 			for (jj = ii + 1; jj < 10; jj++)
 			{
-				putchar((var % 10) + '0')
+				putchar((var % 10) + '0');
 				putchar((ii % 10) + '0');
 				putchar((jj % 10) + '0');
 				if (var != 7)
@@ -31,3 +31,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}

@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - check the code
+ * jack_bauer - prints allminutes of the day
+ * @void: first int to add
  *
  * Return: Always 0.
  */

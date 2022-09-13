@@ -1,4 +1,5 @@
 #include <main.h>
+#include <_putchar.c>
 
 /**
  * main - Print the word "_putchar"

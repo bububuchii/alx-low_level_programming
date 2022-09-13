@@ -903,6 +903,7 @@ void print_times_table(int n)
 	}
 }
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print - function to print recursively using _putchar

@@ -10,7 +10,7 @@ int main(void)
 	int ii;
 
 	printf("%lu, %lu, ", n1, n2);
-	for (11 = 2; ii < nLast; ii++)
+	for (ii = 2; ii < nLast; ii++)
 	{
 		result = n1 + n2;
 		n1 = n2;

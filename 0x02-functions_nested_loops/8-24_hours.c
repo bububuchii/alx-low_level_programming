@@ -3,9 +3,7 @@
  * jack_bauer _ prints all minutes of the day
  * @void: first int to add
  *
- * starting from 00:00 to 23:59
- *
- */
+ **/
 
 void jack_bauer(void)
 {

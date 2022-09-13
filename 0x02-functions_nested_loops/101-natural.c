@@ -1,4 +1,4 @@
-#include <stdio.c>
+#include "main.h"
 /**
  * main - find sum of multiples of 3 and 5 less than 1024
  *

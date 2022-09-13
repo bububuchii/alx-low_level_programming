@@ -14,6 +14,8 @@ void print(int var)
 /**
  * print_time_table - prints the n times table, starting with 0
  * @n: time table to print
+ *
+ * Return: Always 0 (success)
  */
 void print_times_table(int n)
 {

@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	long int var = 612852475143
-		long int primeFact = 2;
+	long int var = 612852475143;
+	long int primeFact = 2;
 
 	while (var > 1)
 	{

@@ -5,7 +5,7 @@
  * Return: 0 if successful
  *
  */
-int man=in(void)
+int main(void)
 {
 	long int var = 612852475143
 		long int primeFact = 2;

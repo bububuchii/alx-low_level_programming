@@ -7,7 +7,7 @@ void print(unsigned int n);
  * @var: variable to be printed
  *
  * Created by: Eze-Isaac
- * cc: 15th August, 2022
+ * cc: 15th august, 2022
  *
  */
 void print_number(int var)
@@ -18,7 +18,7 @@ void print_number(int var)
 		var = var;
 	}
 
-	print(var);
+	printf(var);
 }
 
 /**
@@ -28,6 +28,6 @@ void print_number(int var)
 void print(unsigned int n)
 {
 	if (n / 10)
-		print(n / 10);
+		printf(n / 10);
 	_putchar('0' + n % 10);
 }

@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * print_array - update value
- * @a: value to be evaluate
- * @n: value to be evaluate
- * Return: nothing
+ * print_array - update value.
+ * @a: value to be evaluate.
+ * @n: value to be evaluate.
+ * Return: nothing.
  */
-void print_array(int *a, int n)
+void print_array(int *a, int *n)
 {
 	int x;
 

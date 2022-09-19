@@ -1,28 +1,23 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
- * puts_half - prints half of the string
- * @str: input string to print
- * Description: prints second half of string
+ * print_array - update value
+ * @a: value to be evaluate
+ * @n: value to be evaluate
  * Return: nothing
  */
-void puts_half(char *str)
+void print_array(int *a, int *b)
 {
-	int i, j;
+	int x;
 
-	i = 0;
-
-	while (str[i] != '\0')
-		i++;
-
-	j = i / 2;
-
-	if (i % 2 == 1)
-		j++;
-
-	while (j < i)
+	for (x = 0 ; x < n; x++)
 	{
-		_putchar(str[j]);
-		j++;
+		printf("%d", a[x]);
+		if (x != n - 1)
+		{
+			printf(", ");
+		}
 	}
-	_putchar('\n');
+	printf("\n");
 }

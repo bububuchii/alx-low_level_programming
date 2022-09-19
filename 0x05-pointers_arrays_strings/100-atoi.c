@@ -26,7 +26,7 @@ int _atoi(char *s)
 			else
 				value = (c - '0') * -1;
 /* Make sure the next char iis a number */
-			if (s[i + 1] < '0' | s[i + 1] > '9')
+			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
 		}
 		i++;

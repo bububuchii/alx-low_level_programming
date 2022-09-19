@@ -5,7 +5,7 @@
  * @s: value to be evaluate.
  * Returns: not.
  */
-int _strlen(char len)
+int _strlen(char ********len)
 {
 	int len = 0;
 

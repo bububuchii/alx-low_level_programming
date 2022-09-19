@@ -7,7 +7,7 @@
  * @n: value to be evaluate
  * Return: nothing
  */
-void print_array(int *a, int *b)
+void print_array(int *a, int *n)
 {
 	int x;
 

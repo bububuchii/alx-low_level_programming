@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * puts_half - print half of the string
+ * puts_half - prints half of the string
  * @str: input string to print
  * Description: prints second half of string
  * Return: nothing
  */
-void purs_half(char *str)
+void puts_half(char *str)
 {
 	int i, j;
 

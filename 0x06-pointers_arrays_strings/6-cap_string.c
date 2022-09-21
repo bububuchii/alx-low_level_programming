@@ -18,19 +18,19 @@ char *cap_string(char *n)
 	{
 		switch (n[i])
 		{
-			case ',';
-			case ';';
-			case '.';
-			case '!';
-			case '?';
-			case '"';
-			case '(';
-			case ')';
-			case '{';
-			case '}';
-			case ' ';
-			case '\n';
-			case '\t';
+			case ',':
+			case ';':
+			case '.':
+			case '!':
+			case '?':
+			case '"':
+			case '(':
+			case ')':
+			case '{':
+			case '}':
+			case ' ':
+			case '\n':
+			case '\t':
 			if (n[i + 1] > 96 && n[i + 1] < 123)
 			{
 				n[i + 1] = n[i + 1] - 32;

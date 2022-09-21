@@ -17,7 +17,7 @@ void print_number(int n)
 		dummy = n;
 	}
 
-	while (dumy > 9)
+	while (dummy > 9)
 	{
 		dummy = dummy / 10;
 		holder = holder * 10;

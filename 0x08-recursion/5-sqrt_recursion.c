@@ -1,4 +1,4 @@
-#iniclude "main.h"
+#include "main.h"
 /**
  * sqr_con - finds square root of n
  * @n: number to square

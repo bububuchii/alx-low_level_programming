@@ -19,7 +19,7 @@ int sqr_con(int n, int i)
 	return (sqr_con(n, i + 1));
 }
 /**
- * _sqrt_recusion - find natural square root of n
+ * _sqrt_recursion - find natural square root of n
  * @n: number to square
  * Description: find square root of n using recursion
  * Return: square root of n or -1 if none

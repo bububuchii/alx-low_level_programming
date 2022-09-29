@@ -12,7 +12,7 @@ int prime_con(int n, int i)
 	{
 		return (0);
 	}
-	else if (n >= (i + 1) * (i *1))
+	else if (n >= (i + 1) * (i * 1))
 	{
 		return (prime_con(n, i + 1));
 	}

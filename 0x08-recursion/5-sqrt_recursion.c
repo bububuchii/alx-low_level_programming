@@ -3,7 +3,7 @@
  * sqr_con - finds square root of n
  * @n: number to square
  * @i: test case for root
- * Descrption: find square root of n using recursion and two variables
+ * Description: find square root of n using recursion and two variables
  * Return: square root of n or -1 if none
  */
 int sqr_con(int n, int i)

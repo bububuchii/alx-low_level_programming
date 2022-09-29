@@ -1,7 +1,7 @@
 #include "main.h"
 
 char *test(char *, char *, char *, char *);
-char *wildcard(char *, char *);
+char *wildcmp(char *, char *);
 /**
  * wildcmp - compare - compares two strings
  * @s1: first string

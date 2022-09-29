@@ -10,7 +10,7 @@ int sqr_con(int n, int i)
 {
 	if (n == i * i)
 	{
-		return(i);
+		return (i);
 	}
 	else if (n < i * i)
 	{

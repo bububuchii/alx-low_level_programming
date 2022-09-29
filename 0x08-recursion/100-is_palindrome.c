@@ -9,7 +9,7 @@ int check_palindrome(char *s, int start, int end);
  */
 int is_palindrome(char *s)
 {
-	int len + _strlen(s);
+	int len = _strlen(s);
 	
 	if (len == 0)
 		return (1);
@@ -45,7 +45,7 @@ int check_palindrome(char *s, int start, int end)
 		return (0);
 
 	if (start < end  + 1)
-		return (check palindrome(s, start + 1, end - 1));
+		return (check_palindrome(s, start + 1, end - 1));
 
 	return (1);
 }

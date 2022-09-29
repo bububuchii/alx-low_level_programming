@@ -10,11 +10,10 @@ int check_palindrome(char *s, int start, int end);
 int is_palindrome(char *s)
 {
 	int len = _strlen(s);
-	
 	if (len == 0)
 		return (1);
 
-	return (check_palindrome(s, 0, len -1));
+	return (check_palindrome(s, 0, len - 1));
 }
 /**
  * _strlen - gets the length of a string
@@ -29,7 +28,7 @@ int _strlen(char *s)
 	return (_strlen(++s) + 1);
 }
 /**
- * check_palidrome - checks if substring is a palindrome
+ * check_palidrome - checks if a substring is a palindrome
  * @s: the string
  * @start: the starting index of substring
  * @end: the stopping index of substring

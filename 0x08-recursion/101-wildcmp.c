@@ -1,7 +1,7 @@
 #include "main.h"
 
 char *test(char *, char *, char *, char *);
-char *wildcmp(char *, char *);
+char *wildcard(char *, char *);
 /**
  * wildcmp - compare - compares two strings
  * @s1: first string
@@ -18,7 +18,7 @@ int wildcmp(char *s1, char *s2)
 		return (wildcmp(s1, s2 + 1));
 	else if (*s2 == '*')
 	{
-		p = wildcmp(s1, s2, + 1);
+		p = wildcard(s1, s2, + 1);
 		if (p == 0)
 			return (0);
 		return (wildcmp(p + 1, s2 + 2));

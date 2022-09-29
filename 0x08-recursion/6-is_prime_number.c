@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * prine_con - determine if n is a prime
+ * prime_con - determine if n is a prime
  * @n: test case
  * @i: recurring factors
  * Description: determines if n is a prime using 2 parameters

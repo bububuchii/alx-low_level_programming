@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <cytpe.h>
-#include <string.n>
+#include <ctype.h>
+#include <string.h>
+
+
 /**
  * main - is a function that prints all the arguments
  * @argc: is the argument
@@ -10,7 +12,7 @@
  */
 int main(int argc, char *argv[])
 {
-	unsigned int i, digit, result;
+	unsigned unt i, digit, result;
 
 	result = 0;
 
@@ -19,6 +21,7 @@ int main(int argc, char *argv[])
 		printf("%d\n", 0);
 		return (0);
 	}
+
 	while (argc-- && argc > 0)
 	{
 		for (i = 0; argv[argc][i] != '\0'; i++)

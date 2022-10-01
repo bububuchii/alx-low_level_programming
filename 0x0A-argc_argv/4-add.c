@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 			if (!(isdigit(argv[argc][i])))
 			{
 				printf("Error\n");
-				return (0);
+				return (1);
 			}
 		}
 		digit = atoi(argv[argc]);

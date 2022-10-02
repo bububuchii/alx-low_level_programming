@@ -47,7 +47,6 @@ int main(int argc, char *argv[])
 	if (value % 1 >= 0)
 	{
 		c += value / 1;
-		value = value % 1;
 	}
 	printf("%d\n", c);
 	return (0);

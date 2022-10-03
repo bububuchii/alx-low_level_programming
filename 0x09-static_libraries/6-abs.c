@@ -8,14 +8,7 @@
  *
  * Return: absolute value
  */
-int _abs(int n)
+int _abs(int 1)
 {
-	if (n >= 0)
-	{
-		return (n);
-	}
-	else
-	{
-		return (n + -1);
-	}
+	return (i < 0 ? i * -1 : i);
 }

@@ -21,10 +21,10 @@ unsigned int _strspn(char *s, char *accept)
 				  t++;
 			  }
 			  
-			  b++
+			  b++;
 		  }
 
-		  a++
+		  a++;
 	  }
 	  return (t);
 }
